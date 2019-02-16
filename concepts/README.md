@@ -1,0 +1,8 @@
+1.传统的应用程序架构，参考images目录中的figure1.1
+  Figure 1.1 shows a large web application that uses a traditional server-side design.
+With this design, each request for a new view (HTML page) results in a round-trip to the server. When fresh data is needed on the client side, the request is sent to the server side. On the server side, the request is intercepted by a controller object inside the presentation layer. The controller then interacts with the model layer via the ser- vice layer, which determines the components required to complete the model layer’s task. After the data is fetched, either by a data access object (DAO) or by a service agent, any necessary changes to the data are then made by the business logic in the business layer.Control is passed back to the presentation layer, where the appropriate view is cho- sen. Presentation logic dictates how the freshly obtained data is represented in the selected view. Often the resulting view starts off as a source file with placeholders, where data is to be inserted (and possibly other rendering instructions). This file acts as a kind of template for how the view gets stamped whenever the controller routes a request to it.
+After the data and view are merged, the view is returned to the browser. The browser then receives the new HTML page and, via a UI refresh, the user sees the new view containing the requested data.
+                                                                --- <SPA design and architecture>
+                      
+2.SPA的应用程序架构中，参考images目录中的figure1.2
+  
