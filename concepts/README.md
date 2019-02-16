@@ -11,3 +11,6 @@ The overall SPA design is nearly the same as the traditional design. The key cha
 
 3.SPA Shell, 参考images目录中的figure1.3 
   the shell is minimal in structure and often contains a single, empty DIV tag that will house the rest of the application’s content. You can think of this shell HTML file as the mother ship and the initial container DIV as the docking bay.
+  ## The “pages” of the application aren’t pages at all, at least not in the traditional sense. As the user navigates, the parts of the screen that appear to be pages are actually inde- pendent sections of the application’s content, called views. 
+  page concept 参考images目录中的1.4
+  view concept 参考images目录中的1.5
