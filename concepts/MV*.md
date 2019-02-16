@@ -1,1 +1,15 @@
-1.Once you understand the role of MV* and its underlying patterns, though, you’ll be able to select one that best fits your environment. After all, no one knows your situation better than you do. You know the factors that affect your project, your end users, your budget, your time- lines, and your development resources.
+1.Once you understand the role of MV* and its underlying patterns, though, you’ll be able to select one that best fits your environment. After all, no one knows your situation better than you do. You know the factors that affect your project, your end users, your budget, your timelines, and your development resources.
+2.
+■ Model—The model typically contains data, business logic, and validation logic. Conceptually, it might represent something like a customer or a payment. The model is never concerned with how data is presented.
+■ View—The view is what the user sees and interacts with. It’s a visual representation of the model’s data. It can be a simple structure that relies on other parts of the framework for updates and responses to user interactions or it can contain logic, again depending on the MV* implementation
+■ Controller—The controller is the entry point for the application, receiving sig- nals from controls in the UI. It also contains the logic that processes the user input and sends commands to the model to update its state based on the input received.
+
+3.Traditional UI design pattern
+  Central to these design patterns is the idea that an application’s code is easier to design, develop, and maintain if it’s segmented based on the type of responsibility each layer has.
+
+  - model-view-controller
+  Model-View-Controller (MVC) is one of the oldest patterns to try to separate data, logic, and presentation. MVC was proposed by Trygve Reenskaug and later implemented in the Smalltalk programming language in the 1970s.
+  MVC was instrumental in the design of graphical user interfaces then and still is today. Since its inception, it and its variants have become common design patterns for all types of soft- ware development. The MVC pattern includes the model, the view, and a controller, 具体看images目录中的figure1.9
+
+  - model-view-presenter
+  
