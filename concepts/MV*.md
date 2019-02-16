@@ -1,0 +1,1 @@
+1.Once you understand the role of MV* and its underlying patterns, though, you’ll be able to select one that best fits your environment. After all, no one knows your situation better than you do. You know the factors that affect your project, your end users, your budget, your time- lines, and your development resources.
