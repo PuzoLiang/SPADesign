@@ -11,3 +11,5 @@ How are these separate layers achieved? Enter MV* patterns. Patterns to separate
 保持视图、逻辑、数据分离，查看images目录中的figure1.7。 这种分离有以下几个好处：■ Designers and developers can more effectively collaborate. When the view is void of logic, each resource can work in parallel toward the same goal without stepping on each other’s toes.
 ■ Separate view and logic layers can also help developers create cleaner unit tests, because they have to worry about only the nonvisual aspect of a feature.
 ■ Separate layers help with maintenance and deployments. Isolated code can more easily be changed without affecting other parts of the application.
+
+模块javascript图例查看images目录中的figure1.8
