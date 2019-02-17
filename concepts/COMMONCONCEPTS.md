@@ -1,0 +1,5 @@
+1.
+■ Models—Models represent the data of our application. They contain properties and possibly logic to access and manage the data, including validation. The model often contains business logic as well.
+■ Views—Views are what the user sees and interacts with and are where models are visually represented. In some MV* implementations, views may also contain presentation logic.
+■ Templates—Templates are the reusable building blocks for views when dynamic content is needed. They contain placeholders for data, as well as other instruc- tions for how content in the template should be rendered. One or more tem- plates will be used to create a view in an SPA. 查看images目录中的figure2.3
+■ Binding—This term describes the process of associating the data from a model with an element in a template. Some MV* implementations also provide other types of binding, such as bindings for events and CSS styles. 查看images目录中的figure2.2
