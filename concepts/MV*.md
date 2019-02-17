@@ -12,4 +12,8 @@
   MVC was instrumental in the design of graphical user interfaces then and still is today. Since its inception, it and its variants have become common design patterns for all types of soft- ware development. The MVC pattern includes the model, the view, and a controller, 具体看images目录中的figure1.9
 
   - model-view-presenter
-  
+    The model would continue to represent data management. in MVP, there’s no controller acting as a gatekeeper. Each view is backed by a component called a presenter:
+    ■ Presenter—The presenter contains the view’s presentation logic. The view merely responds to user interactions by delegating responsibility to the pre- senter. The presenter has direct access to the model for any necessary changes and propagates data changes back to the view. In this way, it acts as a “middle- man” between the model and the view.具体看images目录中的figure2.0
+
+  - model-view-viewmodel
+    ■ ViewModel—The ViewModel is a model or representation of the view in code, in addition to being the middleman between the model and the view. Anything needed to define and manage the view is contained within the ViewModel. This includes data properties as well as presentation logic. Each data point in the model that needs to be reflected in the view is mapped to a matching property in the ViewModel. Like a presenter in MVP, each view is backed by a ViewModel. It’s aware of changes in both the view and the model and keeps the two in sync. 具体看images目录中的figure2.1
