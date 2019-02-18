@@ -13,3 +13,5 @@ How are these separate layers achieved? Enter MV* patterns. Patterns to separate
 ■ Separate layers help with maintenance and deployments. Isolated code can more easily be changed without affecting other parts of the application.
 
 模块javascript图例查看images目录中的figure1.8
+
+region,view,layout之间的区别 参考images目录中的figure3.4
