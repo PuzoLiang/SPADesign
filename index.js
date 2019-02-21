@@ -8,3 +8,7 @@ function hello() {
 console.log(hello().then(function(data) {
   console.log(`任务完成啦，结果是${data}`);
 }));
+
+const numbers = [1,2,3,4];
+
+console.log(...numbers);
