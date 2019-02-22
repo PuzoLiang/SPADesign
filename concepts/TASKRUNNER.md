@@ -1,0 +1,1 @@
+1. automation of tasks, 参考images目录中的figure4.7
